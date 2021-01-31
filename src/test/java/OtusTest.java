@@ -52,7 +52,7 @@ public class OtusTest {
     }
 
     @Test
-    public void tele2SearchFieldTest() throws InterruptedException {
+    public void tele2SearchFieldTest() {
         driver.get("https://msk.tele2.ru/shop/number");
         WebElement searchField = driver.findElement(By.id("searchNumber"));
         searchField.sendKeys("97");
